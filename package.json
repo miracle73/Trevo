@@ -1,7 +1,7 @@
 {
   "name": "trevo2",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
+    "@react-native-community/netinfo": "11.4.1",
+    "@stream-io/flat-list-mvcp": "^0.10.3",
     "expo": "~52.0.7",
+    "expo-constants": "~17.0.3",
+    "expo-dev-client": "~5.0.2",
+    "expo-file-system": "~18.0.3",
+    "expo-image-manipulator": "~13.0.5",
+    "expo-linking": "~7.0.2",
+    "expo-router": "~4.0.6",
     "expo-status-bar": "~2.0.0",
+    "expo-updates": "~0.26.7",
     "react": "18.3.1",
-    "react-native": "0.76.2"
+    "react-native": "0.76.2",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.0.0",
+    "react-native-svg": "15.8.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "stream-chat-expo": "^5.42.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
