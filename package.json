@@ -29,7 +29,13 @@
     "react-native-screens": "~4.0.0",
     "react-native-svg": "15.8.0",
     "react-native-url-polyfill": "^2.0.0",
-    "stream-chat-expo": "^5.42.1"
+    "stream-chat-expo": "^5.42.1",
+    "expo-clipboard": "~7.0.0",
+    "expo-sharing": "~13.0.0",
+    "expo-document-picker": "~13.0.1",
+    "expo-haptics": "~14.0.0",
+    "expo-media-library": "~17.0.2",
+    "expo-image-picker": "~16.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
